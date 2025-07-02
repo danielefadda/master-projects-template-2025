@@ -1,1 +1,1 @@
-# Template for SoBigData Master 2025 edition
+# Template for SoBigData Master Projects, 2025 edition

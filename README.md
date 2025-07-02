@@ -1,0 +1,1 @@
+# master-projects-template-2025

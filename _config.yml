@@ -139,8 +139,6 @@ exclude:
 livereload: true
 
 remote_theme: dieghernan/chulapa
-# twitter_username: jekyllrb
-#github_username:  jekyll
 
 future: true
 

@@ -135,8 +135,7 @@ exclude:
  - vendor/ruby/
  - .idea/
 
-include:
-  - .nojekyll
+
 livereload: true
 
 remote_theme: dieghernan/chulapa

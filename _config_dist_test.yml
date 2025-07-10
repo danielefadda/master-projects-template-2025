@@ -1,0 +1,8 @@
+baseurl: "/dfadda/summer-test"
+url: "http://kddrtserver3.isti.cnr.it"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      sitemap: false

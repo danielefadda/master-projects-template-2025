@@ -1,0 +1,7 @@
+baseurl: ""
+url: "https://summerschool2025.sobigdata.eu"
+defaults:
+  - scope:
+      path: ""
+    values:
+      sitemap: true

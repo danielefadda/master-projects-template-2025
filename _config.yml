@@ -35,7 +35,8 @@ github_repo:
 
 markdown: kramdown
 
-baseurl: "/master-projects-template-2025"
+#baseurl: "/master-projects-template-2025"
+baseurl: ""
 url: "https://danielefadda.github.io"
 
 #################################
@@ -68,7 +69,7 @@ navbar:
       url: https://masterbigdata.it/
 
 ###########################
-#    General appearence   #
+#    General appearance   #
 ###########################
 
 googlefonts:

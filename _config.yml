@@ -140,7 +140,6 @@ include:
 livereload: true
 
 remote_theme: dieghernan/chulapa
-destination: docs
 # twitter_username: jekyllrb
 #github_username:  jekyll
 

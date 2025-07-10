@@ -35,8 +35,8 @@ github_repo:
 
 markdown: kramdown
 
-#baseurl: "/master-projects-template-2025"
-baseurl: ""
+baseurl: "/master-projects-template-2025"
+#baseurl: ""
 url: "https://danielefadda.github.io"
 
 #################################

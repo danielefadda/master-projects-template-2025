@@ -52,3 +52,23 @@ layout: minimal
 {%- if page.show_related -%}
 {%- include components/related.html -%}
 {%- endif -%}
+
+
+<a href="#" id="scrollToTopBtn" title="Torna su">↑</a>
+
+<script>
+  const btn = document.getElementById("scrollToTopBtn");
+
+  window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+      btn.style.display = "block";
+    } else {
+      btn.style.display = "none";
+    }
+  };
+
+  btn.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+</script>

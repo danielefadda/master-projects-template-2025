@@ -177,3 +177,26 @@ footer {
    background-color:  white !important;
   }
 }
+
+
+// Button back to top
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+  background-color: $secondary;
+  color: $white;
+  border: none;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: none; /* Nascondi inizialmente */
+}
+
+#scrollToTopBtn:hover {
+  background-color: $primary;
+}

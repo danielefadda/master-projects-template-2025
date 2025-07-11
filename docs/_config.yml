@@ -77,9 +77,14 @@ navbar:
 #  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 #  - url: "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap"
 
+## Google Fonts example to import Space Mono
+googlefonts:
+  - url: "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+
 chulapa-skin:
   skin:  "sbd" # "sbd" "pixel " "graymor" "gitdev-dark" "gitdev" "universal" "academia" "gitdev" "towards" "pear" "twitter-lights-out" "twitter-dim" "wandoo" "lymcha" "twitter" "chulapa" "sunset" "minty" "lux" "journal" "deeply"
-
+  vars:
+    # font-family-base:  "Space Mono"
 
 
 #chulapa-skin:

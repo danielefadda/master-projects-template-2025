@@ -25,11 +25,11 @@ In particular, we will use one of the most popular SSGs: Jekyll and GitHub Pages
 
 # What you need to start
 
-- [ ] 🐙 **A GitHub account**: If you don't have one, you can create it for free at [GitHub](https://github.com/)
-- [ ] 📝 **A well-structured draft of your project**: This can be a Word document or any other format you prefer. It should include the main ideas, structure, and content you want to present on your website.
-- [ ] 📊 **A folder with your saved Charts**: You can use the charts you created saving them as .json files in the `assets/charts` folder.
+- [ ] 🐙 **A GitHub account** - If you don't have one, you can [create it for free](https://github.com/)
+- [ ] 📝 **A well-structured draft of your project** - This can be a Word document or any other format you prefer. It should include the main ideas, structure, and content you want to present on your website.
+- [ ] 📊 **A folder with your saved Charts** - You can use the charts you created saving them as .json files in the `assets/charts` folder.
 - [ ] 📂 **A folder with all the images** you want to use on your website: you can save them in the `assets/images` folder.
-{: .alert .alert-info}
+{: .bg-color-full  .px-3 .lead}
 
 <br>
 

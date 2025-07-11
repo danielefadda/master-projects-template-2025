@@ -11,7 +11,7 @@ vega: true
     <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-To develop the website  we will use a **Static Site Generator** (SSG), which allows you to create fast-loading websites without the need for complex backend systems or databases.
+To develop the *Progettone* website  we will use a **Static Site Generator** (SSG), which allows you to create fast-loading websites without the need for complex backend systems or databases.
 In particular, we will use one of the most popular SSGs: Jekyll and GitHub Pages.
 {: .lead }
 
@@ -21,13 +21,17 @@ In particular, we will use one of the most popular SSGs: Jekyll and GitHub Pages
 **GitHub Pages** is a service provided by GitHub that allows you to host static websites directly from a GitHub repository. It supports Jekyll out of the box, making it easy to deploy your Jekyll site with just a few clicks.
 {: .lead }
 
+<br>
+
 # What you need to start
 
 - [ ] 🐙 **A GitHub account**: If you don't have one, you can create it for free at [GitHub](https://github.com/)
 - [ ] 📝 **A well-structured draft of your project**: This can be a Word document or any other format you prefer. It should include the main ideas, structure, and content you want to present on your website.
-- [ ] 📊 **Charts**: You can use the data from your *Progettone* to create charts.
-- [ ] 📂 **A folder with all the images**.
-{: .lead }
+- [ ] 📊 **A folder with your saved Charts**: You can use the charts you created saving them as .json files in the `assets/charts` folder.
+- [ ] 📂 **A folder with all the images** you want to use on your website: you can save them in the `assets/images` folder.
+{: .alert .alert-info}
+
+<br>
 
 # How to start
 

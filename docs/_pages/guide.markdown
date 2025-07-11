@@ -262,10 +262,12 @@ You can find more information about the Bootstrap classes at this page: [Bootstr
 You can add images to your pages using the html `img` tag. To add an image, you had to save the image in the `assets/images` directory and then use the `img` tag or the markdown syntax to embed it in the page. For example:
 
 ```markdown
-![Poggio all'Agnello](assets/images/poggio-allagnello.jpeg)
+![DR Jekyll](assets/images/Dr_Jekyll.jpg)
 ``` 
 
-![Poggio all'Agnello](assets/images/poggio-allagnello.jpeg)
+![DR Jekyll](assets/images/Dr_Jekyll.jpg)
+
+### Image Gallery
 
 In this theme there are also some shortcodes that can be used to add images in a gallery format. Save the images in the subdirectory `assets/images/gallery_one` and then use the following syntax to embed them in the page:
 
@@ -275,7 +277,7 @@ In this theme there are also some shortcodes that can be used to add images in a
 ```
 {% endraw %}
 
-### Image Gallery
+
 
 {% raw %}
 ```html

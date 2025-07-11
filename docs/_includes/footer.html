@@ -3,7 +3,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                {%- if site.github_repo -%}
                 <p>
                     <strong>Master in big data analytics & ai for society</strong>
                 </p>
@@ -99,11 +98,30 @@ Designed for graduates of all disciplines, it provides the tools to work in the 
               </span><span class="sr-only">{{ social.label }}</span>
                             </a>
                             {%- endfor -%}
-        </div>
+                </div>
                 {%- endif -%}
+                <hr>
+                {%- if site.github_repo -%}
+                <div role="navigation"
+                     class="d-flex flex-wrap justify-content-left">
+                    {%- for gitirepo in site.github_repo -%}
+                    <a href={{ gitirepo.url }} target="_blank">
+                        <i class="fa-pull-left fab fa-github"
+                           style="vertical-align: middle; font-size: 1rem;
+                    line-height: 1.5rem"></i>
+                        {{ gitirepo.name }}</a>
+                    {%- endfor -%}
+                </div>
                 {%- endif -%}
+                <br>
+                <p>
+                    <!-- Do not remove this in order to give  attributions -->
+                    Website powered by <a href="https://jekyllrb.com/"
+                                          target="_blank">Jekyll</a>
+                    <!-- End  attributions -->
+                </p>
 
-
+                </div>
             </div>
         </div>
     </div>

@@ -11,23 +11,28 @@ vega: true
     <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-To develop the website  we will use a Static Site Generator (SSG), which allows you to create fast-loading websites without the need for complex backend systems or databases.
-In particular, we will use one of the most popular SSGs: **Jekyll** and GitHub Pages.
+To develop the website  we will use a **Static Site Generator** (SSG), which allows you to create fast-loading websites without the need for complex backend systems or databases.
+In particular, we will use one of the most popular SSGs: Jekyll and GitHub Pages.
+{: .lead }
+
+**Jekyll** is a simple, blog-aware, static site generator that takes your content, renders it into a static website, and serves it. Combined with GitHub Pages, it allows you to host your website for free, making it an ideal choice for personal projects, portfolios, and documentation sites.
+{: .lead }
+
+**GitHub Pages** is a service provided by GitHub that allows you to host static websites directly from a GitHub repository. It supports Jekyll out of the box, making it easy to deploy your Jekyll site with just a few clicks.
 {: .lead }
 
 # What you need to start
 
-To start, you need to have:
-- A GitHub account.
-- A well-structured draft of your project, also a Word document or something similar is fine.
-- All charts exported in json format, which you can create using Altair.
-- A folder with all the images you want to use in your website.
+- [ ] 🐙 **A GitHub account**: If you don't have one, you can create it for free at [GitHub](https://github.com/)
+- [ ] 📝 **A well-structured draft of your project**: This can be a Word document or any other format you prefer. It should include the main ideas, structure, and content you want to present on your website.
+- [ ] 📊 **Charts**: You can use the data from your *Progettone* to create charts.
+- [ ] 📂 **A folder with all the images**.
 {: .lead }
 
 # How to start
 
 The development of the website can be done in two ways:
-1. Completely online, using GitHub and GitHub Pages.
+1. **Completely online, using GitHub and GitHub Pages.**
 2. Locally, using Jekyll and then pushing the changes to GitHub.
 
 In the guide, we will focus on the first option, which is the easiest way to create a website. 

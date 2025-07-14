@@ -6,15 +6,20 @@ header_type: hero
 header_img: assets/images/folium_map.webp
 header_title: "Example Page"
 subtitle: "An Example Page for the SoBigData Big Data Project Template"
-vega: true
 ---
 
 <div class="full-width-wrapper">
     <img src="{{ site.baseurl }}/assets/images/header.svg" alt="sbd-pattern" class="full-width-image">
 </div>
 
-This is an introductory text for the SoBigData Big Data Project Template. Here you can provide a brief overview of the project, its goals, and what participants can expect from this final laboratory. The text should be engaging and informative, setting the stage for the content that follows. 
-This text can be used to highlight the significance of the project, the methodologies employed, and the expected outcomes. But it could also be used to introduce the story of the project, the motivations behind it, or to anticipate the best discoveries made during the research. There isn't a single way to write this text, but it should be concise and to the point, capturing the essence of the project in a few sentences. Use what you learned in the Data Storytelling course to make it engaging and compelling.
+This is an introductory text for the SoBigData Big Data Project Template. Here you can provide a brief overview of the
+project, its goals, and what participants can expect from this final laboratory. The text should be engaging and
+informative, setting the stage for the content that follows.
+This text can be used to highlight the significance of the project, the methodologies employed, and the expected
+outcomes. But it could also be used to introduce the story of the project, the motivations behind it, or to anticipate
+the best discoveries made during the research. There isn't a single way to write this text, but it should be concise and
+to the point, capturing the essence of the project in a few sentences. Use what you learned in the Data Storytelling
+course to make it engaging and compelling.
 {: .lead }
 
 ---
@@ -23,7 +28,9 @@ This text can be used to highlight the significance of the project, the methodol
 
 # Introduction to the Project
 
-You can use headings, paragraphs, and lists to structure the content effectively. This can be done using Markdown syntax, which allows for easy formatting of text. For example, you can use **bold** or *italic* text to emphasize key points, and you can create lists to organize information clearly.
+You can use headings, paragraphs, and lists to structure the content effectively. This can be done using Markdown
+syntax, which allows for easy formatting of text. For example, you can use **bold** or *italic* text to emphasize key
+points, and you can create lists to organize information clearly.
 
 This is an example of how to format the text in a way that is visually appealing and easy to read.
 In this paragraph we use a `.lead` class to highlight the main points of the project.
@@ -107,8 +114,7 @@ Throughout the development, you will engage with <strong>real-world datasets</st
 
 # How we support our ideas?
 
-Using data visualizations is a powerful way to support your ideas and findings. In this template, you can easily integrate visualizations created with Vega-Lite, a high-level grammar for interactive graphics.
+Using data visualizations is a powerful way to support your ideas and findings. In this template, you can easily
+integrate visualizations created with Vega-Lite, a high-level grammar for interactive graphics.
 
-<div style="height: 400px">
- <vegachart schema-url="{{site.baseurl}}/assets/charts/chart_responsive.json" style="width: 100%; height: 100%"></vegachart>
-</div>
+<br>

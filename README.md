@@ -1,10 +1,10 @@
 # SoBigData Master Project Template
-Welcome! This repository is a template to help you quickly build and publish your project website using Jekyll and GitHub Pages.
+This repository is a template to help you quickly build and publish your project website using Jekyll and GitHub Pages. This template is designed to be simple, customizable, and ready for your Big Data project!
 
 ## How to get started
 
 1. **Create your repository:**  
-   Click **"Use this template"** on GitHub and name your repo (e.g. `g0-2025-website`).
+   Click **"Use this template"** on GitHub and name your repo `g<groupnumber>-<currentyear>-website` (e.g. `g0-2025-website`).
 
 2. **Customize your site:**  
    - Edit `_config.yml` to set your project title, description, and appearance.
@@ -21,6 +21,3 @@ Welcome! This repository is a template to help you quickly build and publish you
 
 For detailed instructions, read the template contents.
 
----
-
-This template is designed to be simple, customizable, and ready for your Big Data project!

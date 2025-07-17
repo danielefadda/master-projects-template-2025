@@ -15,11 +15,12 @@ header_title: "A guide to develop your<br> Progettone website"
 # Main steps to build a website with Jekyll
 
 1. [Use this Jekyll template to create a new project](#1-use-the-jekyll-template-to-create-a-new-project) 
-2. [Customize the `_config.yml` file to set up your project details](#2-customize-the-_configyml-file-to-set-up-your-project-details)
-3. [Publish the project on GitHub Pages](#3-publish-the-project-on-github-pages)
-4. [Create pages](#4-create-pages)
-5. [Multimedia content and components](#5-add-multimedia-content-and-components)
-6. [Customize the layout and design](#6-customize-the-layout-and-design)
+2. [How to edit files in the repository](#2-how-to-edit-files-in-the-repository)
+3. [Customize the `_config.yml` file to set up your project details](#3-customize-the-_configyml-file-to-set-up-your-project-details)
+4. [Publish the project on GitHub Pages](#4-publish-the-project-on-github-pages)
+5. [Create pages](#5-create-pages)
+6. [Multimedia content and components](#6-add-multimedia-content-and-components)
+7. [Customize the layout and design](#7-customize-the-layout-and-design)
 {: .lead }
 
 <br> 
@@ -35,7 +36,7 @@ header_title: "A guide to develop your<br> Progettone website"
 │   ├─ 👥 Invite collaborators
 │   └─ 🖥️ (Optional) Local development with ruby installed:
 │       ├─ 🔧 bundle install
-│       └─ 👉 bundle exec jekyll serve → http://127.0.0.1:4000
+│       └─ 👉 bundle exec jekyll serve → http://127.0.0.1:4000/<repo-name>
 ```
 
 You can start by cloning the Jekyll template repository for the *Big Data Project Template*.
@@ -81,7 +82,7 @@ project-template/docs/
 ├── _includes/               # jekyll components
 └── _layouts/                # html layouts
 ```
-**Invite your team members to the repository so they can collaborate on the project.** You can do this by going to the repository settings on GitHub, clicking on "Manage access", and inviting them by their GitHub username or email address.
+**Invite your team members to the repository so they can collaborate on the project.** You can do this by going to the repository settings on GitHub, clicking on "Manage access", and inviting them by their GitHub username or email address. **Remember to add teachers as memebers: `danielefadda` and `Elecapp`**
 {: .alert .alert-warning}
 <br>
 
@@ -102,13 +103,32 @@ Then launch the site with the bundle command:
 bundle exec jekyll serve
 ```
 
-open your browser at **http://127.0.0.1:4000**
+open your browser at **http://127.0.0.1:4000/<repo-name>**
 
 <br>
 
 ---
 
-## 2. Customize the `_config.yml` file to set up your project details
+## 2. How to edit files in the repository
+
+You can edit the files in the repository directly on GitHub.
+You have three options to do this:
+1. **Edit files directly on GitHub**: Navigate to the file you want to edit, click on the pencil icon in the top right corner, make your changes, and then commit them.
+3. **Clone the repository to your local machine**: Use Git to clone the repository to your local machine, make your changes using a text editor or IDE, and then push the changes back to the repository.
+2. **Use the GitHub codespace editor**: Click on the green `<> code` button in the top right corner of the window, and open the codespace editor. This allows you to edit files in a more advanced editor directly in your browser, with features like syntax highlighting. Remember to install the necessary extensions for example `Prettier code formatter` to format your code automatically. If you don't see the codespace, you can click on the `Code` button and then select `Create codespace on main` to create a new codespace.
+
+![](assets/images/codespace.png)
+
+![](assets/images/prettier_code.png)
+
+
+
+<br>
+
+---
+
+
+## 3. Customize the `_config.yml` file to set up your project details
 
 ```
 ├─ ⚙️ Customize `_config.yml`
@@ -142,7 +162,7 @@ There are also some variables that can be used to customize the appearance of th
 
 ---
 
-## 3. Publish the project on GitHub Pages
+## 4. Publish the project on GitHub Pages
 
 ```
 ├─ 🌐 Publish with GitHub Pages
@@ -165,7 +185,7 @@ Once you have enabled GitHub Pages, every time you push changes to the selected 
 
 ---
 
-## 4. Create pages
+## 5. Create pages
 
 ```
 ├─ 📄 Create and organize pages (`_pages/`)
@@ -238,21 +258,21 @@ You can find more information about the Bootstrap classes at this page: [Bootstr
 
 ---
 
-## 5. Add Multimedia content and components
+## 6. Add Multimedia content and components
 
 ```
 ├─ 🎥 Multimedia content
-│   ├─ 🖼️ **Images**
+│   ├─ 🖼️ Images
 │   │     ├─ 📁 folder: assets/images/
 │   │     ├─ 📝 use Markdown or `img` tag
 │   │     └─ 🖼️ galleries via `masonry.html` + config
-│   ├─ 🎬 **Videos**
+│   ├─ 🎬 Videos
 │   │     └─ ▶️ embed YouTube using shortcode
-│   ├─ 📷 **Icons**
+│   ├─ 📷 Icons
 │   │     └─ 🔍 use Font Awesome icons
-│   ├─ 🖼️ **Modals**
+│   ├─ 🖼️ Modals
 │   │     └─ 🆕 use Bootstrap modals for pop-ups
-│   └─ 📈 **Charts (Vega/Altair)**
+│   └─ 📈 Charts (Vega-Altair)
 │         ├─ 💾 save JSON in assets/charts/
 │         ├─ ✅ include `vega: true` in front matter
 │         └─ 🔗 shortcode `<vegachart schema-url=...>`
@@ -418,7 +438,7 @@ This is the result:
 
 ---
 
-## 6. Customize the layout and design
+## 7. Customize the layout and design
 
 ```
 ├─ 🎨 Layout & design
@@ -634,57 +654,59 @@ This is a synthetic overview of the steps seen in this guide:
 ```
 💡 Guide: Building a website with Jekyll
 │
-├─ 1. 🚀 Start the project using the template
+├─ 1. 🚀 Use this Jekyll template to create a new project
 │   ├─ 📥 Clone via “Import repository”
 │   ├─ 🏷️ Rename the repo (e.g. g0-2025-website)
 │   ├─ 👥 Invite collaborators
-│   └─ 🖥️ (Optional) Local development with ruby installed:
+│   └─ 🖥️ (Optional) Local development with ruby installed
 │       ├─ 🔧 bundle install
-│       └─ 👉 bundle exec jekyll serve → http://127.0.0.1:4000
+│       └─ 👉 bundle exec jekyll serve → http://127.0.0.1:4000/<repo-name>
 │
-├─ 2. 🌐 Publish with GitHub Pages
+├─ 2. 📝 How to edit files in the repository
+│   ├─ ✏️ Edit on GitHub
+│   ├─ 💻 Clone locally
+│   └─ 🖥️ Use GitHub Codespaces
+│
+├─ 3. ⚙️ Customize the `_config.yml` file to set up your project details
+│   ├─ 🏷️ baseurl, url, title, description
+│   └─ 🔗 github_repo (footer, links)
+│
+├─ 4. 🌐 Publish the project on GitHub Pages
 │   ├─ ⚙️ Go to Settings → Pages
 │   ├─ 📂 Select branch + root directory
 │   └─ 🚀 Site is live at https://<username>.github.io/<repo>/
 │
-├─ 3. ⚙️ Customize `_config.yml`
-│   ├─ 🏷️ baseurl, url, title, description
-│   ├─ 🔗 github_repo (footer links)
-│   ├─ 🧭 navbar → list of pages + SoBigData Master
-│   └─ 🎨 skin + colors + Google Fonts
-│
-├─ 4. 📄 Create and organize pages (`_pages/`)
+├─ 5. 📄 Create pages
 │   ├─ 🏠 index.md
 │   ├─ 📁 project.md
 │   ├─ 👥 team.md
 │   ├─ 📦 deliverables.md
 │   └─ ✏️ Each file: front matter → layout, title, subtitle, vega, header_type, etc.
 │
-├─ 5. 🎥 Multimedia content
-│   ├─ 🖼️ **Images**
+├─ 6. 🎥 Multimedia content
+│   ├─ 🖼️ Images
 │   │     ├─ 📁 folder: assets/images/
 │   │     ├─ 📝 use Markdown or `img` tag
 │   │     └─ 🖼️ galleries via `masonry.html` + config
-│   ├─ 🎬 **Videos**
+│   ├─ 🎬 Videos
 │   │     └─ ▶️ embed YouTube using shortcode
-│   ├─ 📷 **Icons**
+│   ├─ 📷 Icons
 │   │     └─ 🔍 use Font Awesome icons
-│   ├─ 🖼️ **Modals**
-│   │     └─ 🆕 use Bootstrap modals for pop-ups
-│   └─ 📈 **Charts (Vega/Altair)**
+│   ├─ 🖼️ Modals
+│   │     └─ 🆕 use Bootstrap modals for popups
+│   └─ 📈 Charts (Vega-Altair)
 │         ├─ 💾 save JSON in assets/charts/
 │         ├─ ✅ include `vega: true` in front matter
 │         └─ 🔗 shortcode `<vegachart schema-url=...>`
 │
-├─ 6. 🎨 Layout & design
-│   ├─ 🧭 Navbar customization via _config.yml
-│   ├─ 👞 Footer customization via _data/members.yml
-│   ├─ 🎨 Choose skin (graymor, minty, lux…)
-│   ├─ 🖌️ Customize colors via `chulapa-skin.vars`
-│   ├─ 🆕 Add Google Fonts (e.g. Lekton)
-│   ├─ 🛠️ Add custom CSS in assets/css/custom.scss
-│   ├─ 🧩 Header types: hero, base, post, image, splash
-│   └─ 🧱 Use helper CSS classes: `.full-width-wrapper`, `.lead`, `.green`, etc.
+├─ 7. 🎨 Customize the layout and design
+│   ├─ 🧭 Navbar and footer via config and `_includes/`
+│   ├─ 🎨 Choose skin
+│   ├─ 🖌️ Customize colors
+│   ├─ 🆕 Add Google Fonts
+│   ├─ 🛠️ Add custom CSS
+│   ├─ 🧩 Header types
+│   └─ 🧱 Use helper CSS classes
 │
 └─ ✅ Final checklist before release
     ├─ 🔒 Repo and baseurl are correct

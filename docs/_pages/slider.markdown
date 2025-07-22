@@ -30,16 +30,20 @@ The structure of the yml file is the following:
 sliders:
   - id: slider1
     title: "Slider 1"
-    items:
+    slides:
       - image: "assets/images/slider1_image1.jpg"
-        caption: "Caption for Image 1"
+        label: "Caption for Image 1"
+        description: "Nulla vitae elit libero, a pharetra augue mollis interdum."
       - image: "assets/images/slider1_image2.jpg"
-        caption: "Caption for Image 2"
+        label: "Caption for Image 2"
+        description: "Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur."
   - id: slider2
     title: "Slider 2"
-    items:
+    slides:
       - image: "assets/images/slider2_image1.jpg"
-        caption: "Caption for Image 3"
+        label: "Caption for Image 3"
+        description: "Cras justo odio, dapibus ac facilisis in, egestas eget quam."
       - image: "assets/images/slider2_image2.jpg"
-        caption: "Caption for Image 4"
+        label: "Caption for Image 4"
+        description: "Morbi leo risus, porta ac consectetur ac, vestibulum at eros."
 ```

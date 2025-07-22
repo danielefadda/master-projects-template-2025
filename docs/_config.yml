@@ -60,8 +60,10 @@ navbar:
           url: /local-development.html
         - title: Markdown
           url: /markdown.html
-        - title: Charts
+        - title: Altair Charts
           url: /charts.html
+        - title: Plotly Charts
+          url: /plotly.html
         - title: Folium
           url: /folium.html
         - title: Sliders

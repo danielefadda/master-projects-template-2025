@@ -6,3 +6,9 @@ _site/
 .bundle/
 vendor/
 .idea
+
+**/.DS_Store
+*.log
+*.tmp
+*.bak
+*.swp
